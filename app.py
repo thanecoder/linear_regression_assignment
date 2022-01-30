@@ -30,7 +30,7 @@ profile_report_container.subheader("Pandas Profile Report")
 # profile_report_container.write("Please wait while the the report is loading....")
 with open('profile_report.sav', 'rb') as f:
     profile_report = pickle.load(f)
-components.html(profile_report, height=600, width=991, scrolling=True)
+components.html(profile_report, height=600, width=800, scrolling=True)
 
 # Form for Input Parameters
 with st.sidebar:
