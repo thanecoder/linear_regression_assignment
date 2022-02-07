@@ -13,9 +13,10 @@ st.set_page_config(page_title='Linear Regression Assignment',
                    initial_sidebar_state="expanded",
                    menu_items=None)
 st.sidebar.markdown("[Training File on Colab](https://colab.research.google.com/drive/1mnR8oaHDPMKl34-Qy2W0Q_q1r3ypSAXu#scrollTo=VDiobCeJoP6U)", unsafe_allow_html=True)
+st.sidebar.markdown("[Github Project Link](https://github.com/thanecoder/linear_regression_assignment)", unsafe_allow_html=True)
 
 st.title('Linear Regression Assignment')
-assignment_question = """Assignment
+assignment_question = """Linear Regression Assignment
 Build the linear regression model using scikit learn in boston data to predict 'Price' based 
 on other dependent variable.
 
